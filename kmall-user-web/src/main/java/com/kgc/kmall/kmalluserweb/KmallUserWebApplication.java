@@ -1,13 +1,13 @@
-package com.kgc.kmall.kmalluser;
+package com.kgc.kmall.kmalluserweb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KmallUserApplication {
+public class KmallUserWebApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(KmallUserApplication.class, args);
+        SpringApplication.run(KmallUserWebApplication.class, args);
     }
 
 }

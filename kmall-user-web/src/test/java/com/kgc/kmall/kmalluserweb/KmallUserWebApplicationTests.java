@@ -1,10 +1,10 @@
-package com.kgc.kmall.kmalluser;
+package com.kgc.kmall.kmalluserweb;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class KmallUserApplicationTests {
+class KmallUserWebApplicationTests {
 
     @Test
     void contextLoads() {
