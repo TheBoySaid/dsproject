@@ -2,8 +2,8 @@ package com.kgc.kmall.kmalluserservice;
 
 import com.kgc.kmall.bean.Member;
 import com.kgc.kmall.service.MemberService;
+import org.apache.dubbo.config.annotation.Reference;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
@@ -11,7 +11,7 @@ import java.util.List;
 @SpringBootTest
 class KmallUserServiceApplicationTests {
 
-    @Autowired
+    @Reference
     MemberService memberService;
 
     @Test

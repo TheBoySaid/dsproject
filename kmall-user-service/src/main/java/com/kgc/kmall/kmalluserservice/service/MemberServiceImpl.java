@@ -3,8 +3,8 @@ package com.kgc.kmall.kmalluserservice.service;
 import com.kgc.kmall.bean.Member;
 import com.kgc.kmall.kmalluserservice.mapper.MemberMapper;
 import com.kgc.kmall.service.MemberService;
+import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
