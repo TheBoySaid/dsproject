@@ -31,7 +31,7 @@ public class CatalogServiceImpl implements CatalogService {
     }
 
     @Override
-    public List<PmsBaseCatalog3> getCatalog3(long catalog2Id) {
+    public List<PmsBaseCatalog3> getCatalog3(Long catalog2Id) {
         PmsBaseCatalog3Example example = new PmsBaseCatalog3Example();
         PmsBaseCatalog3Example.Criteria criteria = example.createCriteria();
         criteria.andCatalog2IdEqualTo(catalog2Id);

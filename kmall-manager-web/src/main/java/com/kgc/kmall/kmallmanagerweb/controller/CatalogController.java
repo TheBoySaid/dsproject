@@ -29,7 +29,7 @@ public class CatalogController {
     }
 
     @RequestMapping("/getCatalog3")
-    public List<PmsBaseCatalog3> getCatalog3(long catalog2Id) {
+    public List<PmsBaseCatalog3> getCatalog3(Long catalog2Id) {
         return catalogService.getCatalog3(catalog2Id);
     }
 
