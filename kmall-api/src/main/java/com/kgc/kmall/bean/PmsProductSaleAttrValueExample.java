@@ -4,14 +4,14 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class pmsProductSaleAttrValueExample implements Serializable {
+public class PmsProductSaleAttrValueExample implements Serializable {
     protected String orderByClause;
 
     protected boolean distinct;
 
     protected List<Criteria> oredCriteria;
 
-    public pmsProductSaleAttrValueExample() {
+    public PmsProductSaleAttrValueExample() {
         oredCriteria = new ArrayList<Criteria>();
     }
 
