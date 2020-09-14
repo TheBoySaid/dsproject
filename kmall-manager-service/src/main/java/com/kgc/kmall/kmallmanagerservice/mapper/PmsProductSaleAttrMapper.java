@@ -30,4 +30,6 @@ public interface PmsProductSaleAttrMapper {
     int updateByPrimaryKey(PmsProductSaleAttr record);
 
     int insertBatch(@Param("spuId") Long spuId, @Param("spuSaleAttrList") List<PmsProductSaleAttr> spuSaleAttrList);
+
+    List<PmsProductSaleAttr> spuSaleAttrListIsCheck(@Param("spuId") Long spuId,@Param("skuId") Long skuId);
 }
